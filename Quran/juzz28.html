@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juzz 28</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="tafsiir.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-warning" href="#">Tafsiirka Quraanka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="player">
+        <div class="player__header">
+            <div class="player__img player__img--absolute slider">
+                <button class="player__button player__button--absolute--nw playlist">
+                    <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon" />
+                </button>
+                <button class="player__button player__button--absolute--center play">
+                    <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon" />
+                    <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon" />
+                </button>
+                <div class="slider__content">
+                    <img class="img slider__img" src="./images/masjid2.jpg" alt="cover" />
+                    <img class="img slider__img" src="./images/masjid2.jpg" alt="cover" />
+                    <img class="img slider__img" src="./images/masjid2.jpg" alt="cover" />
+                    <img class="img slider__img" src="./images/masjid2.jpg" alt="cover" />
+                    <img class="img slider__img" src="./images/masjid2.jpg" alt="cover" />
+                    <img class="img slider__img" src="./images/masjid2.jpg" alt="cover" />
+                    <img class="img slider__img" src="./images/masjid2.jpg" alt="cover" />
+                    <img class="img slider__img" src="./images/masjid2.jpg" alt="cover" />
+                </div>
+            </div>
+            <div class="player__controls">
+                <button class="player__button back">
+                    <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon" />
+                </button>
+                <p class="player__context slider__context">
+                    <strong class="slider__name"></strong>
+                    <span class="player__title slider__title"></span>
+                </p>
+                <button class="player__button next">
+                    <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon" />
+                </button>
+                <div class="progres">
+                    <div class="progres__filled"></div>
+                </div>
+            </div>
+        </div>
+        <ul class="player__playlist list">
+            <li class="player__song">
+                <img class="player__img img" src="./images/masjid2.jpg" alt="cover" />
+                <p class="player__context">
+                    <b class="player__song-name">Surah Al-Mujadilah</b>
+                    <span class="flex">
+                        <span class="player__title">Juzz 28</span>
+                        <span class="player__song_time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./audio/juzz28/058 al-mujadilax [1..........22].mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./images/masjid2.jpg" alt="cover" />
+                <p class="player__context">
+                    <b class="player__song-name">Surah Al-Hashr</b>
+                    <span class="flex">
+                        <span class="player__title">Juzz 28</span>
+                        <span class="player__song_time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./audio/juzz28/059 Al-Xashr [1..........24].mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./images/masjid2.jpg" alt="cover" />
+                <p class="player__context">
+                    <b class="player__song-name">Surah Al-Mumtahana & Surah Al-Saff</b>
+                    <span class="flex">
+                        <span class="player__title">Juzz 28</span>
+                        <span class="player__song_time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./audio/juzz28/060-061 Al-Mumtaxinah... As-Saff; .mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./images/masjid2.jpg" alt="cover" />
+                <p class="player__context">
+                    <b class="player__song-name">Surah Al-Jumuʿah & Surah Al-Munafiqun</b>
+                    <span class="flex">
+                        <span class="player__title">juzz 28</span>
+                        <span class="player__song_time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./audio/juzz28/062-063 Al-Jumucah ...Al-Munafiqun; .mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./images/masjid2.jpg" alt="cover" />
+                <p class="player__context">
+                    <b class="player__song-name">Surah Al-Taghabun</b>
+                    <span class="flex">
+                        <span class="player__title">Juzz 28</span>
+                        <span class="player__song_time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./audio/juzz28/064 At-Taghaabun [1..........18].mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./images/masjid2.jpg" alt="cover" />
+                <p class="player__context">
+                    <b class="player__song-name">Surah Al-Talaq</b>
+                    <span class="flex">
+                        <span class="player__title">Juzz 28</span>
+                        <span class="player__song_time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./audio/juzz28/065 Adh-Dhalaaq [1..........12].mp3"></audio>
+            </li>
+            <li class="player__song">
+                <img class="player__img img" src="./images/masjid2.jpg" alt="cover" />
+                <p class="player__context">
+                    <b class="player__song-name">Surah AL-Tahreem</b>
+                    <span class="flex">
+                        <span class="player__title">Juzz 28</span>
+                        <span class="player__song_time"></span>
+                    </span>
+                </p>
+                <audio class="audio" src="./audio/juzz28/066 At-Taxriim [1..........12].mp3"></audio>
+            </li>
+            
+        </ul>
+    </div>
+
+
+    <!-- Javascript -->
+    <script src="tafsiir.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./images/thumbnail.jpg/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
